@@ -1,0 +1,44 @@
+/* PC devices style
+---------------------------------------*/
+@import "compass";
+
+@media(min-width:800px){
+  .appName{
+    font-size:120%;
+    width:50%;
+  }
+
+  .icon{
+    width:72px;
+    @include border-radius(16px);
+  }
+
+  .target{
+    margin-bottom:20px;
+  } 
+
+  .appDetail{
+   font-size:14px;
+  }
+
+  .langChange{
+   margin-bottom:100px;
+  }
+
+  .apprank-responsive{
+    width:728px;
+    height:90px;
+  }
+  
+  .ad300{
+    width:300px;
+    height:250px;
+    position:fixed;
+    right:10px;
+    bottom:105px;
+    padding:10px;
+    border:1px solid #ccc;
+    background-color: rgba(0,0,0,0.8);
+    display:block;
+  }
+}

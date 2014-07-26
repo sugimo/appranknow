@@ -1,0 +1,16 @@
+/* tablet devices style
+---------------------------------------*/
+@import "compass";
+
+@media(min-width:500px) { 
+  .target{
+    margin-bottom:20px;
+  }
+  .langChange{
+   margin-bottom:100px;
+  }
+  .apprank-responsive{
+    width:728px;
+    height:90px;
+  }
+}
